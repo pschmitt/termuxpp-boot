@@ -2,6 +2,11 @@
 
 A TermuxPP add-on app to run programs when the device boots.
 
+> **TermuxPP release channel:** New builds are published in the
+> [TermuxPP monorepo](https://github.com/pschmitt/termuxpp/releases/tag/latest).
+> Existing releases here remain available to older clients. See the
+> [self-update guide](https://github.com/pschmitt/termuxpp/blob/main/docs/en/self-update.md).
+
 This fork keeps the upstream Java namespace (`com.termux.boot`) and uses the
 TermuxPP Android package `dev.pschmitt.termux.boot`. It shares the UID and
 signing certificate of the TermuxPP core (`dev.pschmitt.termux`).
